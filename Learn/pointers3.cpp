@@ -18,8 +18,6 @@ void reverseArray(int* ptr){
     int aux = 0;
     int j = 0;
 
-    //aux = *ptr+j;
-
     for (int i = SIZE-1; i >=0; i--){
 
         if (i == j){
